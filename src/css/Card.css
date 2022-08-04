@@ -1,0 +1,134 @@
+.card__student {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 240px;
+  height: 170px;
+  color: white;
+  background-color: #1c07dd;
+  opacity: 0.8;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.card__teacher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 240px;
+  height: 170px;
+  color: white;
+  background-color: #1881e9;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.card__courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 240px;
+  height: 170px;
+  color: white;
+  background-color: rgb(255, 178, 13);
+  opacity: 0.9;
+
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.card__event {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 240px;
+  height: 170px;
+  color: white;
+  background-color: #d83939;
+  opacity: 0.9;
+
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.card__icon {
+  font-size: 4rem !important;
+  margin-top: -15px;
+  margin-bottom: -10px;
+
+  /* color: red; */
+}
+
+@media screen and (max-width: 500px) {
+  .card__student {
+    width: 300px;
+    height: 170px;
+  }
+
+  .card__teacher {
+    width: 300px;
+    height: 170px;
+  }
+
+  .card__courses {
+    width: 300px;
+    height: 170px;
+  }
+
+  .card__event {
+    width: 300px;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .card__student {
+    width: 260px;
+    height: 170px;
+  }
+
+  .card__teacher {
+    width: 260px;
+    height: 170px;
+  }
+
+  .card__courses {
+    width: 260px;
+    height: 170px;
+  }
+
+  .card__event {
+    width: 260px;
+    height: 170px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .card__student {
+    width: 230px;
+    height: 170px;
+  }
+
+  .card__teacher {
+    width: 230px;
+    height: 170px;
+  }
+
+  .card__courses {
+    width: 230px;
+    height: 170px;
+  }
+
+  .card__event {
+    width: 230px;
+    height: 170px;
+  }
+}

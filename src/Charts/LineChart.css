@@ -1,0 +1,5 @@
+.linechart {
+  display: flex;
+  justify-content: center;
+  width: 270px;
+}

@@ -1,0 +1,77 @@
+.login {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/bg.jpg");
+  object-fit: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login__card {
+  width: 500px !important;
+}
+
+.login__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.login__form {
+  /* width: 400px !important; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email {
+  width: 400px !important;
+  margin-bottom: 10px !important;
+  /* margin-top: 10px !important; */
+}
+
+.pass {
+  width: 400px !important;
+}
+
+.login__text {
+  /* margin: 0; */
+  font-family: serif !important;
+  font-weight: 500 !important;
+  font-size: 1.7rem !important;
+  /* line-height: 1.334;
+    letter-spacing: 0em; */
+}
+
+.login__text__register {
+  margin-top: 35px;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 500px) {
+  .login__card {
+    width: 100% !important;
+  }
+
+  .email {
+    width: 320px !important;
+    margin-bottom: 10px !important;
+    /* margin-top: 10px !important; */
+  }
+
+  .pass {
+    width: 320px !important;
+  }
+
+  .login__btn {
+    height: 50px !important;
+    width: 130px !important;
+    /* background-color: aqua !important; */
+  }
+}

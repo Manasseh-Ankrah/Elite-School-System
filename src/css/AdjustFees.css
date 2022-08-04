@@ -1,0 +1,139 @@
+.AdjustFees {
+  overflow-x: hidden;
+}
+
+.AdjustFees_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  overflow-y: hidden !important;
+}
+
+.AdjustFees_paper {
+  margin-top: 30px !important;
+  /* display: none; */
+}
+
+.AdjustFees_input {
+  width: 320px !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.btn_search {
+  margin-left: 20px;
+}
+
+.AdjustFees_results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Tbl-box {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.student_tblInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+  padding: 0px;
+}
+
+.AdjustFees_tblcontainer {
+  overflow-x: auto;
+  padding: 0px !important;
+  margin-left: 20px !important;
+  margin-top: 20px !important;
+  width: 90% !important;
+}
+
+.option_btn {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1100px) {
+  .AdjustFees_input {
+    width: 260px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .AdjustFees_tblcontainer {
+    width: 90% !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .AdjustFees_input {
+    width: 240px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  .btn_search {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .AdjustFees_input {
+    width: 200px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .btn_search {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .AdjustFees_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .AdjustFees_input {
+    width: 300px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+
+  .btn_search {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .AdjustFees {
+    width: 100vw;
+  }
+  .AdjustFees_box {
+    margin-right: 30px !important;
+  }
+
+  .AdjustFees_input {
+    width: 70vw !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .AdjustFees_box {
+    margin-right: 20px !important;
+  }
+}

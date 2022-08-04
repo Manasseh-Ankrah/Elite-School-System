@@ -1,0 +1,9 @@
+.tbl_box {
+  width: 100% !important;
+  overflow-x: auto !important;
+  /* padding: 30px !important; */
+}
+
+.tbl_box_student {
+  padding-left: 0px !important;
+}

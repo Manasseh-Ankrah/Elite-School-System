@@ -1,0 +1,132 @@
+/* .sidebarRow :hover {
+  background-color: coral !important;
+} */
+
+.sidebarRow__icon {
+  color: #fff !important;
+}
+
+/* #1976d2 */
+
+.sidebarRow__title {
+  /* flex: 1; */
+  /* margin-left: 20px; */
+  font-size: 70px !important;
+  font-weight: 500 !important;
+  color: rgba(255, 255, 255, 0.76) !important;
+}
+
+.sidebarRow:hover {
+  cursor: pointer;
+  background-color: #2c3e5c !important;
+}
+
+.sidebarRow:hover .sidebarRow__icon {
+  color: #1976d2 !important;
+  /* background-color: rgb(255, 102, 14); */
+}
+
+.sidebarRow:hover .sidebarRow__title {
+  color: #fff !important;
+}
+
+/* .sidebarRow.selected {
+    background-color: lightgray;
+  } */
+
+/* .sidebarRow.selected > .sidebarRow__icon {
+    color: red;
+  } */
+
+/* .sidebarRow.selected > .sidebarRow__title {
+  font-weight: bolder;
+} */
+
+.sidebarRow__section {
+  background-color: gray !important;
+  color: white !important;
+  margin-bottom: 8px !important;
+  /* text-align: center !important; */
+}
+
+.sidebar__right__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 30px;
+}
+
+/* .side__toolbar {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+} */
+
+/* .sidebar__right__icons__div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.sidebar_container {
+  overflow-x: hidden;
+}
+
+.sidebar_element {
+  background-color: #1c2b40;
+  height: 1000px;
+}
+
+@media screen and (max-width: 900px) {
+  .sidebar__right__icons {
+    right: 8px;
+  }
+
+  .sidebar__notification {
+    margin-right: -15px;
+  }
+
+  .sidebar__image {
+    margin-right: -10px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav__text {
+    font-size: 17.1px !important;
+    font-weight: bold !important;
+  }
+
+  /* .sidebar__right__icons {
+    right: 20px;
+  }
+
+  .sidebar__notification {
+    margin-right: -1px;
+  }
+
+  .sidebar__image {
+    margin-right: -1px;
+  } */
+}
+
+@media screen and (max-width: 750px) {
+  .nav__text {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar__right__icons {
+    right: 8px;
+  }
+
+  .sidebar__notification {
+    margin-right: -11px;
+  }
+
+  .sidebar__image {
+    margin-right: -9px;
+  }
+}

@@ -1,0 +1,142 @@
+.home__paper {
+  padding: 15px !important;
+  margin-bottom: 30px;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.home__group {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.home__left {
+  width: 460px !important;
+  height: 300px !important;
+}
+
+.home__right {
+  width: 460px !important;
+  height: 300px !important;
+}
+
+.charts {
+  width: 270px;
+}
+
+.chart-container {
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  /* flex-wrap: wrap; */
+  /* text-align: center !important; */
+}
+.line-chart {
+  width: 50%;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.dough-chart {
+  width: 50%;
+}
+
+@media screen and (max-width: 1070px) {
+  .chart-container {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+    /* text-align: center !important; */
+  }
+
+  .line-chart {
+    width: 90%;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  .dough-chart {
+    margin-top: 20px;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .chart-container {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+    /* text-align: center !important; */
+  }
+  .line-chart {
+    width: 100%;
+  }
+  .dough-chart {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .home__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 500px) {
+  .paper {
+    padding: 0px !important;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .chart-container {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+  }
+  .line-chart {
+    width: 90%;
+  }
+  .dough-chart {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 370px) {
+  .chart-container {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-wrap: wrap;
+  }
+  .line-chart {
+    width: 90%;
+  }
+  .dough-chart {
+    width: 90%;
+  }
+  .root-line {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .root-chart {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+}
