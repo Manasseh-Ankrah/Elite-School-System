@@ -79,7 +79,7 @@ function Login() {
             variant="h5"
             component="h4"
           >
-            Login
+            Elite School System
           </Typography>
           {/* <Divider />
 
