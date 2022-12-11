@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://school-mgt-backend.herokuapp.com/",
+  baseURL: "https://elite-sch-api.onrender.com/",
   // baseURL: "https://school-mgt-server.herokuapp.com/",
 });
 export default instance;
